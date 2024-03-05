@@ -1,0 +1,49 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+video{
+    width:100%;
+    position:fixed;
+    right:0;
+    bottom:0;
+    z-index: -1;
+}
+nav h1{
+    color:#6c757d;
+    padding-left:20px;
+}
+nav a {
+    padding-left:30px;
+    font-size:20px;
+    text-decoration:none;
+    color:white;
+}
+nav a:hover{
+    font-weight:bold;
+    font-size:25px;
+    color:#6c757d;
+}
+.content{
+    color:white;
+    padding-top:100px;
+    padding-left:100px;
+}
+.content h1{
+    font-size:50px;
+}
+.content p{
+    font-size:20px;
+}
+footer{
+    width:100%;
+    bottom:0;
+    position:fixed;
+    background-color: #6c757d;
+    color:white;
+    text-align:center;
+}
+footer a{
+    color:white;
+    text-decoration:none;
+}
